@@ -1,0 +1,2 @@
+Participant ID: A7_2
+EC: 10.68 seconds

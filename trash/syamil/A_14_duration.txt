@@ -1,0 +1,2 @@
+Participant ID: A_14
+EC: 45.19 seconds

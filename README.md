@@ -23,11 +23,11 @@ graph LR
 List of 
 ```mermaid
 graph LR
-A1 -- amir
-A2 --> fahmi(rosak) -> ijat 
-A3 --> malik
-A4 --> hany(rosak) -> ijat(tertukar) -> faris
-A5 --> aniff
-A6 --> naufal
-A7 --> syazwan
+    A1 --> amir
+    A2 --> fahmi --> ijats 
+    A3 --> malik
+    A4 --> hany --> ijat--> faris
+    A5 --> aniff
+    A6 --> naufal
+    A7 --> syazwan
 ```

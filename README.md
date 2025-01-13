@@ -18,7 +18,11 @@ csv_data = pd.read_csv('https://raw.githubusercontent.com/6661647a77616e/Muse-Da
 
 
 
-
+## Changelog
+```mermaid
 A1-08 -> A1-04
+A1_04 -> A1_02
+should be A1-08 -> A1-02 but im stupid
+```
 hany reserved for A2
 

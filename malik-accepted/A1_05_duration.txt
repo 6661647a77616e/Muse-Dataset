@@ -1,6 +1,0 @@
-Participant ID: A_05
-EC: 181.13 seconds
-EO: 180.85 seconds
-Personality1: 182.92 seconds
-Personality2: 191.57 seconds
-Personality3: 282.31 seconds

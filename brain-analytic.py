@@ -11,7 +11,7 @@ eyes_closed_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-01/A1_01_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-02/A1_02_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-03/A1_03_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-05/A1_05_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-06/A1_06_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-07/A1_07_EC.csv"
@@ -21,7 +21,7 @@ eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-01/A1_01_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-02/A1_02_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-03/A1_03_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-05/A1_05_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-06/A1_06_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-07/A1_07_EO.csv"
@@ -32,7 +32,7 @@ data = [
     (17, 24, 16, 20.67, 32, "A1-01", "Imran"),
     (12, 32, 19, 13.00, 45, "A1-02", "Ijat"),
     (22, 27, 21, 3.67, 30, "A1-03", "Malik"),
-    (18, 27, 14, 15.67, 29, "A1-04", "Faris"),
+    # (18, 27, 14, 15.67, 29, "A1-04", "Faris"),
     (25, 16, 21, 16.00, 36, "A1-05", "Anif"),
     (14, 22, 16, 11.33, 24, "A1-06", "Taib"),
     (17, 27, 18, 9.00, 29, "A1-07", "Syazwan")
@@ -80,6 +80,7 @@ def add_trait_classifications(df, traits):
     return df
 
 def preprocess_eeg_data(df, channels, sfreq):
+    print(df[channels].values.T)
     eeg_data = df[channels].values.T * 1e-6  # Convert µV to Volts
     info = mne.create_info(ch_names=channels, sfreq=sfreq, ch_types=['eeg'] * len(channels))
     raw = mne.io.RawArray(eeg_data, info)
@@ -127,6 +128,7 @@ def extract_features(segmented_data, sfreq, combined_df):
 
 def main(df, subject_id):
     subject_info = df.loc[subject_id]
+    print(">>>>>>>>>>>>>>",subject_info["id_name"],subject_info["name"].upper())
     eyes_opened_path = subject_info["eyes_open_path"]
     eyes_closed_path = subject_info["eyes_closed_path"]
     

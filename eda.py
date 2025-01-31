@@ -20,9 +20,9 @@ eyes_closed_paths = [
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-02/A2_02_EC.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-03/A2_03_EC.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-04/A2_04_EC.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EC.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EC.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EC.csv",
 
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_01/B_01_EC.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_02/B_02_EC.csv",
@@ -34,14 +34,14 @@ eyes_closed_paths = [
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_08/B_08_EC.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_09/B_09_EC.csv",
 
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EC.csv"
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EC.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EC.csv"
 ]
 
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_10/B_10_EC.csv",
@@ -59,9 +59,9 @@ eyes_open_paths = [
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-02/A2_02_EO.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-03/A2_03_EO.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-04/A2_04_EO.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EO.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EO.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EO.csv",
 
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_01/B_01_EO.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_02/B_02_EO.csv",
@@ -73,14 +73,14 @@ eyes_open_paths = [
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_08/B_08_EO.csv",
     # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_09/B_09_EO.csv",
 
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EO.csv"
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EO.csv",
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EO.csv"
 ]
 
 data = [
@@ -96,9 +96,9 @@ data = [
     # (15, 19, 18, 13.33, 23, "A2-02", "hazim imran bin abd aziz"),
     # (11, 19, 12, 20, 19, "A2-03", "Harraz Nasrullah bin Suhairul Afzan"),
     # (18, 28, 19, 14.33, 35, "A2-04", "Adam Ashraf bin Azlan"),
-    # (19, 25, 19, 10.33, 39, "A2-05", "hakimnazry@gmail.com"),
-    # (11, 8, 16, 19.67, 36, "A2-06", "Nisa Nabilah binti Azaddin"),
-    # (16, 21, 20, 11.66666667,32,"A2-07","Nurinhany Mysara binti Noor Haslan"),
+    (19, 25, 19, 10.33, 39, "A2-05", "hakimnazry@gmail.com"),
+    (11, 8, 16, 19.67, 36, "A2-06", "Nisa Nabilah binti Azaddin"),
+    (16, 21, 20, 11.66666667,32,"A2-07","Nurinhany Mysara binti Noor Haslan"),
 
     # (18, 24, 21, 22.33, 33, "B-01", "NUR AMIRA SYAFIQAH BINTI MOHD FAUZI"),
     # (22, 21, 18, 16.33, 41, "B-02", "NUR ALYSSA FITRI BINTI MOHAMAD FAUZI"),
@@ -110,14 +110,14 @@ data = [
     # (19, 26, 24, 22.67, 34, "B-08", "Puteri Nur Sabrina Binti Mohd Azlee"),
     # (20, 24, 17, 16.00, 29, "B-09", "Noor Afiqah Binti Normadi"),
 
-    (16, 17, 26, 19, 34, "C-01", "Dahlia Binti Husin"),
-    (13, 21, 28, 26, 38, "C-02", "Nur Fathnin Ilhami Bt Mohamad Helmi"),
-    (20, 13, 13, 21.67, 27, "C-03", "Noor Azzatul Sofea Binti Yayah"),
-    (20, 29, 22, 13, 31, "C-04", "Raihanatuzzahra Binti Azmi"),
-    (20, 26, 9, 14, 33, "C-05", "Hayani Nazurah Binti Hasram"),
-    (19, 18, 7, 23, 39, "C-06", "Nur Syakirah Huda Binti Razali"),
-    (10, 26, 19, 17.67, 27, "C-07", "Qhuratul Nissa Binti Mior Idris"),
-    (24, 17, 15, 23.33, 34, "C-08", "Ainul Mardhiah Binti Mohammed Rafiq"),
+    # (16, 17, 26, 19, 34, "C-01", "Dahlia Binti Husin"),
+    # (13, 21, 28, 26, 38, "C-02", "Nur Fathnin Ilhami Bt Mohamad Helmi"),
+    # (20, 13, 13, 21.67, 27, "C-03", "Noor Azzatul Sofea Binti Yayah"),
+    # (20, 29, 22, 13, 31, "C-04", "Raihanatuzzahra Binti Azmi"),
+    # (20, 26, 9, 14, 33, "C-05", "Hayani Nazurah Binti Hasram"),
+    # (19, 18, 7, 23, 39, "C-06", "Nur Syakirah Huda Binti Razali"),
+    # (10, 26, 19, 17.67, 27, "C-07", "Qhuratul Nissa Binti Mior Idris"),
+    # (24, 17, 15, 23.33, 34, "C-08", "Ainul Mardhiah Binti Mohammed Rafiq"),
 ]
 # Create a dictionary mapping each subject ID to their corresponding details
 dataset_dict = {}
@@ -217,17 +217,17 @@ def plot_eeg_topomap_muse_from_csv(csv_path, save_path_animation=None, save_dire
         anim = FuncAnimation(fig, update, frames=len(times), interval=200)
         anim.save(save_path_animation, writer='imagemagick')
         print(f"Animation saved to: {save_path_animation}")
-        plt.close(fig)
+        # plt.close(fig)
 
 
 
 # Define file_path with the path to your CSV file
-# file_path = "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-01/A1_01_EO.csv"  # Replace with your actual path
+# file_path = "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-04/A1_04_EC.csv"  # Replace with your actual path
 
 save_directory = "animations"
-# save_file_name = "eeg_topomap_animation.gif"
+# save_file_name = "A1_04_EC.gif"
 # plot_eeg_topomap_muse_from_csv(file_path, save_path_animation=save_file_name, save_directory=save_directory, show_names=True)
 
 for subject_id, subject_info in dataset_dict.items():
     save_file_name = f'{subject_id}.gif'
-    plot_eeg_topomap_muse_from_csv(dataset_dict[subject_id]["eyes_open_path"], save_path_animation=save_file_name, save_directory=save_directory, show_names=True)
+    plot_eeg_topomap_muse_from_csv(dataset_dict[subject_id]["eyes_closed_path"], save_path_animation=save_file_name, save_directory=save_directory, show_names=True)

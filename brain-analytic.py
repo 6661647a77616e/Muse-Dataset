@@ -4,7 +4,7 @@ import mne
 import matplotlib.pyplot as plt
 from scipy.signal import welch
 from scipy.stats import skew, kurtosis
-
+import os
 
 
 # Define the dataset paths
@@ -164,19 +164,94 @@ def add_trait_classifications(df, traits):
         df[trait] = classify_trait(score)
     return df
 
-def preprocess_eeg_data(df, channels, sfreq):
-    print(df[channels].values.T)
+import matplotlib.pyplot as plt
+
+import matplotlib.pyplot as plt
+import os
+
+def preprocess_eeg_data(df, channels, sfreq, subject_id):
+    save_directory = "graf"
+    
+    # Create the directory if it doesn't exist
+    if not os.path.exists(save_directory):
+        os.makedirs(save_directory)
+
     eeg_data = df[channels].values.T * 1e-6  # Convert µV to Volts
     info = mne.create_info(ch_names=channels, sfreq=sfreq, ch_types=['eeg'] * len(channels))
     raw = mne.io.RawArray(eeg_data, info)
-    raw_filtered = raw.copy().filter(l_freq=1.0, h_freq=30.0)
     
+    # Plot raw signal in time domain
+    raw_data = raw.get_data()[0]
+
+    # Apply band-pass filter (1-30 Hz)
+    raw_filtered = raw.copy().filter(l_freq=1.0, h_freq=30.0)
+    filtered_data = raw_filtered.get_data()[0]
+
+    # Run ICA
     ica = mne.preprocessing.ICA(n_components=len(channels), random_state=42, max_iter=200)
     ica.fit(raw_filtered)
     raw_cleaned = raw_filtered.copy()
     ica.apply(raw_cleaned)
-    
+    cleaned_data = raw_cleaned.get_data()[0]
+
+    # Plotting time and frequency domain subplots
+    plt.figure(figsize=(12, 6))  # Adjust plot size for clarity
+
+    # Raw signal in time domain
+    plt.subplot(3, 2, 1)
+    plt.plot(df['timestamps'], raw_data, color='red')
+    plt.title("Raw EEG Data")
+    plt.xlabel("Time (seconds)")
+    plt.ylabel("Amplitude (µV)")
+
+    # Raw signal in frequency domain
+    plt.subplot(3, 2, 2)
+    plt.magnitude_spectrum(raw_data, Fs=raw.info['sfreq'], color='red')
+    plt.title("Raw Signal (Frequency Domain)")
+
+    # Filtered signal in time domain
+    plt.subplot(3, 2, 3)
+    plt.plot(df['timestamps'], filtered_data, color='blue')
+    plt.title("Filtered Signal (Time Domain)")
+    plt.xlabel("Time (s)")
+    plt.ylabel("Amplitude (µV)")
+
+    # Filtered signal in frequency domain
+    plt.subplot(3, 2, 4)
+    plt.magnitude_spectrum(filtered_data, Fs=raw.info['sfreq'], color='blue')
+    plt.title("Filtered Signal (Frequency Domain)")
+
+    # Cleaned signal after ICA in time domain
+    plt.subplot(3, 2, 5)
+    plt.plot(df['timestamps'], cleaned_data, color='green')
+    plt.title("Signal After ICA (Time Domain)")
+    plt.xlabel("Time (s)")
+    plt.ylabel("Amplitude (µV)")
+
+    # Cleaned signal after ICA in frequency domain
+    plt.subplot(3, 2, 6)
+    plt.magnitude_spectrum(cleaned_data, Fs=raw.info['sfreq'], color='green')
+    plt.title("Signal After ICA (Frequency Domain)")
+
+    plt.tight_layout()
+    save_path_image = os.path.join(save_directory, f"{subject_id}.jpg")
+    plt.savefig(save_path_image)
+    plt.close()
+
     return raw_cleaned.get_data()
+# def preprocess_eeg_data(df, channels, sfreq):
+#     print(df[channels].values.T)
+#     eeg_data = df[channels].values.T * 1e-6  # Convert µV to Volts
+#     info = mne.create_info(ch_names=channels, sfreq=sfreq, ch_types=['eeg'] * len(channels))
+#     raw = mne.io.RawArray(eeg_data, info)
+#     raw_filtered = raw.copy().filter(l_freq=1.0, h_freq=30.0)
+    
+#     ica = mne.preprocessing.ICA(n_components=len(channels), random_state=42, max_iter=200)
+#     ica.fit(raw_filtered)
+#     raw_cleaned = raw_filtered.copy()
+#     ica.apply(raw_cleaned)
+    
+#     return raw_cleaned.get_data()
 
 def extract_features(segmented_data, sfreq, combined_df):
     all_features = []
@@ -231,7 +306,7 @@ def main(df, subject_id):
     
     channels = ['TP9', 'AF7', 'AF8', 'TP10']
     sfreq = 256
-    cleaned_data = preprocess_eeg_data(combined_df, channels, sfreq)[0]
+    cleaned_data = preprocess_eeg_data(combined_df, channels, sfreq, subject_id)[0]
     
     epoch_length = 1
     samples_per_epoch = int(epoch_length * sfreq)
@@ -252,3 +327,5 @@ if __name__ == "__main__":
     
     final_df.to_csv('final_results.csv', index=False)
     print("Results saved to final_results.csv")
+
+

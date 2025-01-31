@@ -1,0 +1,6 @@
+Participant ID: B_03
+EC: 183.73 seconds
+EO: 183.39 seconds
+Personality1: 275.87 seconds
+Personality2: 231.61 seconds
+Personality3: 306.82 seconds

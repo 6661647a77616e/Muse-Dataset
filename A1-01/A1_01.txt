@@ -1,6 +1,0 @@
-Participant ID: Imran_Test1
-EC: 180.12 seconds
-EO: 182.42 seconds
-Personality1: 201.54 seconds
-Personality2: 218.87 seconds
-Personality3: 329.35 seconds

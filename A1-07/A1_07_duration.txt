@@ -1,6 +1,0 @@
-Participant ID: A1_07
-EC: 231.44 seconds
-EO: 118.99 seconds + 58.21 seconds
-Personality1: 172.39 seconds
-Personality2: 181.13 seconds
-Personality3: 70.09 seconds + 70.09 seconds

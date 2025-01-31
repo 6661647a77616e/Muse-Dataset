@@ -1,6 +1,0 @@
-Participant ID: A_13
-EC: 187.21 seconds
-EO: 184.62 seconds
-Personality1: 245.20 seconds
-Personality2: 245.59 seconds
-Personality3: 398.56 seconds

@@ -16,14 +16,16 @@ eyes_closed_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-05/A1_05_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-06/A1_06_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-07/A1_07_EC.csv",
+
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-01/A2_01_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-02/A2_02_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-03/A2_03_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-04/A2_04_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_07_EC.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_1/B_1_EC.csv"
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EC.csv",
+
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_01/B_01_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_02/B_02_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_03/B_03_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_04/B_04_EC.csv",
@@ -32,7 +34,7 @@ eyes_closed_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_07/B_07_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_08/B_08_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_09/B_09_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_10/B_10_EC.csv",
+
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EC.csv",
@@ -43,6 +45,8 @@ eyes_closed_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EC.csv"
 ]
 
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_10/B_10_EC.csv",
+
 eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-01/A1_01_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-02/A1_02_EO.csv",
@@ -51,14 +55,16 @@ eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-05/A1_05_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-06/A1_06_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-07/A1_07_EO.csv",
+
      "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-01/A2_01_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-02/A2_02_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-03/A2_03_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-04/A2_04_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-05/A2_05_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_06_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-06/A2_07_EO.csv",
-    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_1/B_1_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A2-07/A2_07_EO.csv",
+
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_01/B_01_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_02/B_02_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_03/B_03_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_04/B_04_EO.csv",
@@ -67,7 +73,7 @@ eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_07/B_07_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_08/B_08_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_09/B_09_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_10/B_10_EO.csv",
+
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EO.csv",
@@ -78,6 +84,8 @@ eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EO.csv"
 ]
 
+    # "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/B_10/B_10_EO.csv",
+
 data = [
     (17, 24, 16, 20.67, 32, "A1-01", "Imran"),
     (12, 32, 19, 13.00, 45, "A1-02", "Ijat"),
@@ -86,6 +94,7 @@ data = [
     (25, 16, 21, 16.00, 36, "A1-05", "Anif"),
     (14, 22, 16, 11.33, 24, "A1-06", "Taib"),
     (17, 27, 18, 9.00, 29, "A1-07", "Syazwan"),
+
     (20, 22, 16, 19.33, 32, "A2-01", "MUHAMMAD 'ILYAS AMIERRULLAH BIN AB KARIM"),
     (15, 19, 18, 13.33, 23, "A2-02", "hazim imran bin abd aziz"),
     (11, 19, 12, 20, 19, "A2-03", "Harraz Nasrullah bin Suhairul Afzan"),
@@ -93,15 +102,17 @@ data = [
     (19, 25, 19, 10.33, 39, "A2-05", "hakimnazry@gmail.com"),
     (11, 8, 16, 19.67, 36, "A2-06", "Nisa Nabilah binti Azaddin"),
     (16, 21, 20, 11.66666667,32,"A2-07","Nurinhany Mysara binti Noor Haslan"),
-    (19, 26, 24, 22.67, 34, "B-2", "Puteri Nur Sabrina Binti Mohd Azlee"),
-    (19, 23, 23, 16.33, 33, "B-3", "NURUL ADLINA BINTI ROSLAN"),
-    (24, 31, 32, 11.67, 39, "B-4", "NURAIN AWATIF BINTI ISMAIL"),
-    (20, 24, 17, 16.00, 29, "B-5", "Noor Afiqah Binti Normadi"),
-    (20, 32, 27, 9.00, 28, "B-6", "Nur Adila Binti Muhammad Zahid"),
-    (18, 22, 3, 17.33, 27, "B-7", "NUR ANNISA BINTI MOHAMAD MAHAYUDIN"),
-    (22, 21, 18, 16.33, 41, "B-8", "NUR ALYSSA FITRI BINTI MOHAMAD FAUZI"),
-    (18, 24, 21, 22.33, 33, "B-9", "NUR AMIRA SYAFIQAH BINTI MOHD FAUZI"),
-    (21, 19, 16, 16.67, 37, "B-10", "Amir Azim Bin Mohd Kamaruzaman"),
+
+    (18, 24, 21, 22.33, 33, "B-01", "NUR AMIRA SYAFIQAH BINTI MOHD FAUZI"),
+    (22, 21, 18, 16.33, 41, "B-02", "NUR ALYSSA FITRI BINTI MOHAMAD FAUZI"),
+    (21, 19, 16, 16.67, 37, "B-03", "Amir Azim Bin Mohd Kamaruzaman"),
+    (20, 32, 27, 9.00, 28, "B-04", "Nur Adila Binti Muhammad Zahid"),
+    (19, 23, 23, 16.33, 33, "B-05", "NURUL ADLINA BINTI ROSLAN"),
+    (24, 31, 32, 11.67, 39, "B-06", "NURAIN AWATIF BINTI ISMAIL"),
+    (18, 22, 3, 17.33, 27, "B-07", "NUR ANNISA BINTI MOHAMAD MAHAYUDIN"),
+    (19, 26, 24, 22.67, 34, "B-08", "Puteri Nur Sabrina Binti Mohd Azlee"),
+    (20, 24, 17, 16.00, 29, "B-09", "Noor Afiqah Binti Normadi"),
+
     (16, 17, 26, 19, 34, "C-01", "Dahlia Binti Husin"),
     (13, 21, 28, 26, 38, "C-02", "Nur Fathnin Ilhami Bt Mohamad Helmi"),
     (20, 13, 13, 21.67, 27, "C-03", "Noor Azzatul Sofea Binti Yayah"),

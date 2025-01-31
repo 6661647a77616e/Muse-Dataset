@@ -14,7 +14,17 @@ eyes_closed_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-05/A1_05_EC.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-06/A1_06_EC.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-07/A1_07_EC.csv"
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-07/A1_07_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_9/C_9_EC.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_10/C_10_EC.csv",
 ]
 
 eyes_open_paths = [
@@ -24,7 +34,17 @@ eyes_open_paths = [
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-04/A1_04_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-05/A1_05_EO.csv",
     "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-06/A1_06_EO.csv",
-    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-07/A1_07_EO.csv"
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/A1-07/A1_07_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_1/C_1_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_2/C_2_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_3/C_3_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_4/C_4_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_5/C_5_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_6/C_6_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_7/C_7_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_8/C_8_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_9/C_9_EO.csv",
+    "https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/dataset/C_10/C_10_EO.csv",
 ]
 data = [
     (17, 24, 16, 20.67, 32, "A1-01", "Imran"),

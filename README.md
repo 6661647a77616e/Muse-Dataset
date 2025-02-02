@@ -61,3 +61,5 @@ https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_3
 https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_3_Personality2.csv
 https://raw.githubusercontent.com/6661647a77616e/Muse-Dataset/main/A1-04/A1_04_3_Personality3.csv
 ```
+
+[![Star History Chart](https://api.star-history.com/svg?repos=6661647a77616e/Muse-Dataset&type=Timeline)](https://star-history.com/#6661647a77616e/Muse-Dataset)
